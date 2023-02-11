@@ -1,9 +1,12 @@
 package com.driver;
 
 public class Boat implements WaterVehicle{
-    public String name;
-    public int capacity;
+    private String name;
+    private int capacity;
 
+    public Boat(){
+
+    }
     public String getName() {
         return name;
     }
